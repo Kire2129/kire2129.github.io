@@ -1,0 +1,71 @@
+:root {
+    --color-brand-primary: #011C44;
+    --color-brand-accent: #2B7FFF;
+}
+body {
+    color: var(--color-brand-primary);
+    font-family: 'Play', sans-serif;
+    font-size: 22px;
+}
+.title-page {
+width: hug(529px);
+height: hug(408px);
+top: 122.52px;
+left: 206px;
+gap: 40px;
+}
+ul {
+    list-style-type: none;
+    text-decoration: none;
+}
+h1 {
+    color: var(--color-brand-accent);
+    text-align: left;
+    text-transform: uppercase;
+    font-size: 140px;
+}
+.top {
+    background-color: #ffffff ;
+    backdrop-filter: blur(10);
+    width: 1,440px;
+    height: 106px;
+    font-size: 18px;
+}
+.section-title {
+    color: var(--color-brand-primary);
+}
+span {
+    color: var(--color-brand-accent);
+}
+#pro-nas .brand {
+    /*to put in bold*/
+}
+.button {
+    color: white;
+    background-color:var(--color-brand-accent);
+    width: 219px;
+    height: 53px;
+    border: 2px solid var(--color-brand-accent);
+    border-radius: 8px;
+    cursor: pointer;
+}
+.button:hover{
+background-color:var(--color-brand-primary);
+border: 2px solid var(--color-brand-primary);
+}
+.header-link {
+    color: var(--color-brand-primary);
+    text-decoration: none;
+}
+.header-link:hover {
+    color: #2B7FFF;
+    text-decoration: none;
+}
+.footer-link {
+    color: white;
+    text-decoration: none;
+}
+.footer-link:hover {
+    color: #2B7FFF;
+    text-decoration: none;
+}
